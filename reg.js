@@ -41,11 +41,16 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         popup.innerHTML = `
-            <h2 style="color: red; font-size: 22px;">🔥 Спешите! 🔥</h2>
-            <p style="font-size: 18px;">Зарегистрируйтесь и получите <b style="color: green;">2%</b> скидку!</p>
-            <p style="font-size: 18px;">А на первый заказ еще <b style="color: green;">3%</b>! 🎉</p>
-            <p style="font-size: 20px; font-weight: bold; color: red;">Итого: <span style="color: green;">5% скидки!</span></p>
-            <a href="/register" style="display: inline-block; margin-top: 10px; padding: 10px 15px; background: red; color: white; font-size: 16px; text-decoration: none; border-radius: 5px;">Зарегистрироваться</a>
+             <h2 style="color: red; font-size: 24px; font-weight: bold;">🔥 ВАШИ ЛУЧШИЕ СКИДКИ – ТУТ! 🔥</h2>
+                    <p style="font-size: 18px; margin-top: 10px;">Хотите экономить на каждом заказе? 💰</p>
+                    <p style="font-size: 18px;">Зарегистрируйтесь прямо сейчас и получите:</p>
+                    <ul style="text-align: left; display: inline-block; margin: 10px 0; font-size: 18px;">
+                        <li>✅ <b style="color: green;">2% скидку</b> на все заказы!</li>
+                        <li>✅ <b style="color: green;">Дополнительно 3%</b> на первый заказ!</li>
+                        <li>✅ <b style="color: green;">Эксклюзивные акции</b> только для зарегистрированных!</li>
+                    </ul>
+                    <p style="font-size: 20px; font-weight: bold; color: red;">ИТОГО: <span style="color: green;">5% ВЫГОДЫ НА ПЕРВЫЙ ЗАКАЗ!</span></p>
+                    <p style="font-size: 18px; margin-top: 10px;">Успейте, акция ограничена! ⏳</p>
         `;
 
         popup.appendChild(closeBtn);
